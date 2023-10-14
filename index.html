@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TO-DO List</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>TO-DO LIST</h1>
+        <div class="input-container">
+            <form>
+                <input type="text" required autofocus class="todo-item-title" placeholder="Title">
+                <textarea type="text" rows="10" cols="500" class="todo-item-desc" placeholder="Description"></textarea>
+                <button type="submit" class="btn-submit">ADD TO-DO</button>
+            </form>
+        </div>
+
+        <div class="alert"></div>
+
+        <h1>TO-DOs</h1>
+        <div class="todos">
+            <div class="pending-todos">
+                <h2>PENDING</h2>
+                <div class="todo-list">
+                    <!-- TODOS ARE DYNAMICALLY ADDED FROM JS -->
+                </div>
+                <p class="hidden">Woohoo! No pending To-Dos</p>
+            </div>
+            <div class="completed-todos">
+                <h2>COMPLETED</h2>
+                <div class="todo-list">
+                    <!-- TODOS ARE DYNAMICALLY ADDED FROM JS -->
+                </div>
+                <p class="hidden">No completed To-Dos yet</p>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
