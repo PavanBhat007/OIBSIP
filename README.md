@@ -1,8 +1,6 @@
 # [OIBSIP] Dynamic To-Do List Web Application
 ## LEVEL 2 TASK 3
 
-![](./images/Task-description.png)
-
 🚀 Welcome to the Dynamic To-Do List Web Application project! Manage your tasks with ease using this sleek and responsive web app.
 
 ## Features
